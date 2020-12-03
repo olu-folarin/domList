@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Texturina', serif;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.container {
+  margin: 1rem auto;
+  width: 70vw;
+  padding: 1.5rem;
+}
+
+.input-area {
+  margin-bottom: 1.6rem;
+}
+
+.insert {
+  display: inline-block;
+}
+
+input[type='text'] {
+  width: 20rem;
+  padding: .5rem .6rem;
+  margin-right: 1rem;
+}
+
+input[type='submit'] {
+  padding: .4rem;
+  font-size: 1rem;
+}
+
+ul {
+  color: teal;
+  padding: 1rem 0;
+}
+
+li {
+  background-color: rgb(238, 208, 169);
+  list-style-type: none;
+  padding: .8rem;
+}
+
+.delete {
+  text-decoration: none;
+  padding: .4rem;
+  margin-left: 4rem;
+  color: rgb(196, 30, 30);
+  cursor: pointer;
+}
